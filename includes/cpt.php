@@ -26,7 +26,8 @@ function arch_custom_post_type(){
         'add_new'       => __('Add Project', 'textdomain'),
         'add_new_item'  => __('Add New Project', 'textdomain'),
         'edit_item'     => __('Edit Project', 'textdomain'),
-        'all_items'     => __('Projects', 'textdomain')
+        'all_items'     => __('Projects', 'textdomain'),
+        'taxonomies'    => __array('category')
     );
     $project_args = array(  
             'labels'              => $project_label,
